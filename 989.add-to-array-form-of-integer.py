@@ -73,8 +73,7 @@ class Solution(object):
         for i in range(len(num)):
             string += str(num[i])
         number = int(string)
-        summing = str(number+k)
-        summing = list(summing)
+        summing = list(str(number+k))
         for i in range(len(summing)):
             final_array.append(int(summing[i]))
         return final_array
