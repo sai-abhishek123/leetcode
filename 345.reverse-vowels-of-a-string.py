@@ -46,9 +46,9 @@ class Solution(object):
         final_string = ""
         list_s = list(s)
         vowels = []
-        check_array = ['A', 'E', 'I', 'O', 'U', 'a', 'e', 'u', 'i', 'o']
+        check_string = 'AEIOUaeiou'
         for i in range(len(list_s)):
-            if list_s[i] in check_array:
+            if list_s[i] in check_string:
                 vowels.append(list_s[i])
                 list_s[i] = 0
         vowels_reverse = vowels[::-1]
