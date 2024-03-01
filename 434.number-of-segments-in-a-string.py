@@ -60,5 +60,5 @@ class Solution(object):
             if a[i] != "":
                 count += 1
         return count
-
+        return len(s.split())
 # @lc code=end
