@@ -77,8 +77,6 @@ class Solution(object):
             if list_of_status[i] == 'A':
                 cA += 1
         a = s.split("LLL")
-        print(a)
-        print(len(a))
         if len(a) > 1 or cA >= 2:
             return False
         else:
