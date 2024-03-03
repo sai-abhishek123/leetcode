@@ -61,7 +61,7 @@ class Solution(object):
                 count += 1
             elif nums[i] == 0:
                 ca.append(count)
-                count = 0~
+                count = 0
         if len(ca) == 0:
             return count
         return (max(count, max(ca)))
