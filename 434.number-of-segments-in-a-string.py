@@ -61,5 +61,4 @@ class Solution(object):
                 count += 1
         return count
         return len(s.split())
-
 # @lc code=end
